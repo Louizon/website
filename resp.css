@@ -1,0 +1,55 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .header {
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 100%;
+  }
+
+   #myBtn {
+    width: 15%;
+    display: inherit;
+  }
+  
+ 
+ 
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .header {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    
+  }
+  .register{
+  background: #2d85b0;
+  width: 100%;
+  
+
+
+
+}
+  
+  #myBtn {
+    width: 15%;
+    display: inherit;
+  }
+  
+  
+  
+  /* Add CSS for header-right */
+  .header-right{
+  display:normal;
+  }
+  
+  /* Add CSS for menu-icon */
+  .menu-icon {
+    display: block;
+  }
+  
+
+

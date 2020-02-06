@@ -50,10 +50,10 @@ i{
 .header{
 	width: 100%;
 	height: 100vh;
-	background-image: linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)), url(study4.jpg);
+	background-image: linear-gradient(rgba(0,100,380,0.3), rgba(0,80,200,0.5)), url(CODE.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0); 
+	clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%,); 
 	position: relative;
 
 
@@ -83,7 +83,7 @@ i{
 
 }
 .nav-item a{
-	color: #fff!important;
+	color: black!important;
 	font-weight: bold;
 }
 .navbar-toggler-icon{
@@ -198,21 +198,18 @@ i{
 .headings h1{
 	font-size: 1.5rem;
 	font-weight: 600;
-	text-transform: uppercase;
-
+	
 
 }
 .names h1{
 	color: #2e2e2e;
 	font-size: 0.9rem;
-	text-transform: uppercase;
+
 	font-weight: bold; 
 
 
 }
-.video{
-	padding-top: 68px;
-}
+
 .service-icons{
 	display: flex;
 	justify-content: center;
@@ -220,26 +217,25 @@ i{
 
 
 }
-.progress{
-	height: 0.6rem!important;
-	margin-bottom: 25px!important;
-	background: #606060;
-
+.register{
+	background: #2d85b0;
+	width: 500px;
+	margin: 0px 0px 0px 20px;
+	color: white;
+	font-size: 18px;
 
 }
+.register label,input{
+	margin: 0px 0px 0px 20px;
+}
+
+
 
 /*********************service offers css ends***********************/
 
 /*********************awards won starts***********************/
 
-.project-work{
-	margin: 100px 0;
-}
-.project-work h1{
-	font-size: 2rem;
-	text-align: center;
 
-}
 /*********************awards won ends***********************/
 
 /*********************pricing css start***********************/
@@ -325,6 +321,11 @@ i{
 	background-size: cover;
 
 
+
+}
+.happyclients h1{
+	color: darkred;
+
 }
 .box{
 	text-align: center;
@@ -334,9 +335,13 @@ i{
 	transition: 0.3s ease;
 }
 .box:hover{
-	background: #16c9f6;
+	background: #000;
 }
 .box:hover p{
+	color: white;
+}
+
+.box:hover h1{
 	color: white;
 }
 .carousel-indicators{
@@ -399,6 +404,8 @@ i{
 	margin-bottom: 20px;
 
 }
+
+
 
 
 
@@ -491,7 +498,7 @@ footer{
 
 #footer .footer-top {
   /*background: #040919;*/
-  background:skyblue;
+  background:rgb(76, 105, 103);
   padding: 60px 0 30px 0;
 
 }
